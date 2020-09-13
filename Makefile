@@ -5,11 +5,11 @@ EXECUTABLE=program
 
 
 build: folder
-	mkdir -p ${OUTPUT}/$(lab)
-	${CC} ${FLAGS} $(lab)/*.cpp -o ${OUTPUT}/$(lab)/${EXECUTABLE}
+	mkdir -p ${OUTPUT}/$(LAB)
+	${CC} ${FLAGS} $(LAB)/*.cpp -o ${OUTPUT}/$(LAB)/${EXECUTABLE}
 
 execute:
-	./${OUTPUT}/$(lab)/program
+	./${OUTPUT}/$(LAB)/program $(ARGS)
 
 folder:
 	mkdir -p ${OUTPUT}
