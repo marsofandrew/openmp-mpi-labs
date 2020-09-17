@@ -1,5 +1,5 @@
 out/
 cmake-build-debug/
-CMakeList.txt
+CMakeLists.txt
 lab.pdf
 .idea/
